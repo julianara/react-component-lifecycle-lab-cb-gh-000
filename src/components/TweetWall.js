@@ -23,7 +23,11 @@ class TweetWall extends React.Component {
   }
 
   shouldComponentUpdate(nextProps) {
+<<<<<<< HEAD
     return nextProps.newTweets.length > 0;
+=======
+    return nextProps.tweets.length > 0;
+>>>>>>> 542511834059612fb03e3aa2ba1b8409576226e8
   }
 
   render() {
